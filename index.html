@@ -257,7 +257,7 @@
                 <div class="modal-body text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-8">
+                            <div class="col-lg-10">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary mb-0">Mi Cuerpo al Cantar</h2>
                                 <!-- Icon Divider-->
@@ -271,13 +271,13 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Videos e imágenes de postura corporal, respiración y anatomía de la voz.
                                 </p>
-                                
+
                                 <div style="padding-bottom: 15pt;">
                                     <p style="float: left;">audio resonadores:</p>
-                                    <audio controls style="width: 100%;">
-                                        <source src="assets//audio/audio resonadores.mp3" type="audio/mpeg">
-                                        Su navegador no es compatible con el elemento de audio.
-                                    </audio>
+                                    <video width="100%" controls>
+                                        <source src="assets/video/Resonadores.mp4" type="video/mp4">
+                                        Su navegador no es compatible con el elemento de video.
+                                    </video>
                                 </div>
 
                             </div>
@@ -328,7 +328,7 @@
                 <div class="modal-body text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-10">
+                            <div class="col-lg-11">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary mb-0">Repertorio</h2>
                                 <!-- Icon Divider-->
@@ -342,17 +342,124 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Videos, audios y partituras para descargar.</p>
 
-                                <div style="padding-bottom: 15pt;">
-                                    <p style="float: left;">Es navidad (primera parte):</p>
-                                    <audio controls style="width: 100%;">
-                                        <source src="assets//audio/Es navidad primera parte.mp3" type="audio/mpeg">
-                                        Su navegador no es compatible con el elemento de audio.
-                                    </audio>
-                                </div>
+                                <div id="accordion">
 
-                                <div>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/Es navidad primera parte.jpg"
-                                        alt="Repertorio" />
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h4 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="false"
+                                                    aria-controls="collapseOne" style="float: left; font-size: 15pt;">
+                                                    Es navidad (primera parte)
+                                                </button>
+                                                </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div>
+                                                    <audio controls style="width: 100%;">
+                                                        <source src="assets//audio/Es navidad primera parte.mp3"
+                                                            type="audio/mpeg">
+                                                        Su navegador no es compatible con el elemento de audio.
+                                                    </audio>
+                                                </div>
+                                                <div>
+                                                    <img class="img-fluid rounded"
+                                                        src="assets/img/partituras/Es navidad primera parte.jpg"
+                                                        alt="Repertorio" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h4 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo" style="float: left; font-size: 15pt;">
+                                                    Es navidad coro 1
+                                                </button>
+                                                </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div>
+                                                    <audio controls style="width: 100%;">
+                                                        <source src="assets//audio/Es navidad coro 1.mp3"
+                                                            type="audio/mpeg">
+                                                        Su navegador no es compatible con el elemento de audio.
+                                                    </audio>
+                                                </div>
+                                                <div>
+                                                    <img class="img-fluid rounded"
+                                                        src="assets/img/partituras/Es navidad coro 1-1.jpg"
+                                                        alt="Repertorio" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h4 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree" style="float: left; font-size: 15pt;">
+                                                    Es navidad coro 2
+                                                </button>
+                                                </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div>
+                                                    <audio controls style="width: 100%;">
+                                                        <source src="assets//audio/Es navidad coro 2.mp3"
+                                                            type="audio/mpeg">
+                                                        Su navegador no es compatible con el elemento de audio.
+                                                    </audio>
+                                                </div>
+                                                <div>
+                                                    <img class="img-fluid rounded"
+                                                        src="assets/img/partituras/Es navidad coro 2-1.jpg"
+                                                        alt="Repertorio" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingFour">
+                                            <h4 class="mb-0">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseFour" aria-expanded="false"
+                                                    aria-controls="collapseFour" style="float: left; font-size: 15pt;">
+                                                    Es navidad dos voces
+                                                </button>
+                                                </h5>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div>
+                                                    <audio controls style="width: 100%;">
+                                                        <source src="assets//audio/Es navidad dos voces.mp3"
+                                                            type="audio/mpeg">
+                                                        Su navegador no es compatible con el elemento de audio.
+                                                    </audio>
+                                                </div>
+                                                <div>
+                                                    <img class="img-fluid rounded"
+                                                        src="assets/img/partituras/Es navidad dos voces-1.jpg"
+                                                        alt="Repertorio" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
